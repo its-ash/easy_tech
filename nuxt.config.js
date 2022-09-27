@@ -24,10 +24,42 @@ export default {
     ],
     link: [
       {
+        rel: 'stylesheet',
+        href: '/css/animate.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/backtotop.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/flaticon.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/font-awesome-pro.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/magnific-popup.css'
+      },
+      {
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
       }
+    ],
+    script: [
+      // { src: 'js/vendor/jquery.js' },
+      { src: 'js/bootstrap.bundle.min.js' },
+      // { src: 'js/meanmenu.js' },
+      // { src: 'js/nice-select.js' },
+      // { src: 'js/imagesloaded-pkgd.js' },
+      // { src: 'js/magnific-popup.js' },
+      // { src: 'js/wow.js' },
+      // { src: 'js/isotope-pkgd.js' },
+      // { src: 'js/counterup.js' },
+      // { src: 'js/main.js' }
     ]
   },
   css: [],
