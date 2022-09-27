@@ -40,6 +40,6 @@ export default {
   transform: rotate(90deg);
 }
 
-@import "bootstrap";
+@import "bootstrap/dist/css/bootstrap.css";
 @import "@/assets/scss/main.scss";
 </style>
