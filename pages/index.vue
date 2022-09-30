@@ -548,32 +548,19 @@
           </div>
         </div>
         <div class="row py-4 pb-5">
-          <div class="col-md-4 col-6">
+          <div class="col-md-4 col-6 my-2" v-for="customer in customers">
             <div class="testimonial__item transition-3 text-center white-bg">
               <div class="testimonial__text">
-                <h4>Great quality!</h4>
-                <p>Lorem ipsum dolor sit amet, consectet adipiscing elit. Phasellus feugiat lacus vitae neque
-                  ornare.</p>
+                <h4>{{ customer.title }}</h4>
+                <p>{{ customer.desc }}</p>
               </div>
               <div class="testimonial__avater-info">
-                <h3>Dianne Ameter</h3>
-                <span>UX Designer</span>
+                <h3>{{ customer.name }}</h3>
+                <span>{{ customer.job }}</span>
               </div>
               <div class="testimonial__rating">
                 <ul>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-star"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-star"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-star"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-star"></i></a>
-                  </li>
-                  <li>
+                  <li v-for="_ in customer.rating">
                     <a href="#"><i class="fa-solid fa-star"></i></a>
                   </li>
                 </ul>
@@ -590,7 +577,31 @@
 <script>
 export default {
   name: 'index',
-  data: () => ({}),
+  data: () => ({
+    customers: [
+      {
+        title: 'Great',
+        desc: 'lasdas asd adad',
+        name: 'Ashvini Jangid',
+        job: 'Teacher',
+        rating: 4
+      },
+      {
+        title: 'Great',
+        desc: 'lasdas asd adad',
+        name: 'Ashvini Jangid',
+        job: 'Teacher',
+        rating: 5
+      },
+      {
+        title: 'Great',
+        desc: 'lasdas asd adad',
+        name: 'Ashvini Jangid',
+        job: 'Teacher',
+        rating: 5
+      },
+    ]
+  }),
 
 }
 </script>

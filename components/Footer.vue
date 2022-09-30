@@ -55,11 +55,10 @@
               </div>
               <div class="footer__social">
                 <h4>Follow Us</h4>
-
                 <ul>
-                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  <li><a href="https://www.facebook.com/easytechacademykota"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="https://twitter.com/EasytechAcademy"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/easytechacademykota"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
               </div>
             </div>

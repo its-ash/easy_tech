@@ -34,7 +34,7 @@
             </div>
             <div class="team__content">
               <h3 class="team__title">
-                C.P.SIR (EXP: 8yrs)
+                C.P.SIR (EXP: 10yrs)
               </h3>
             </div>
           </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="team__content">
               <h3 class="team__title">
-                Shaifali Ma'am (EXP: 8yrs)
+                Shaifali Ma'am (EXP: 12yrs)
               </h3>
             </div>
           </div>

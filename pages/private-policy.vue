@@ -1,5 +1,5 @@
 <template>
-  <section class="container py-5">
+  <section class="container py-5 my-5">
     <h1>Privacy Policy for Easy Tech Kota</h1>
 
     <p>At easytechkota, accessible from http://easytechkota.in/, one of our main priorities is the privacy of our

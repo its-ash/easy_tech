@@ -2,7 +2,7 @@ export default {
   target: 'static',
   ssr: false,
   head: {
-    title: 'easy_tech',
+    title: 'EASYTECH ACADEMY',
     htmlAttrs: {
       lang: 'en'
     },
