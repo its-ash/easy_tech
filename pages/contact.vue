@@ -157,9 +157,12 @@ export default {
         url.searchParams.append('entry' + key.replace('_', '.'), value.toString())
       })
 
-      fetch(url).then(() => {
-        this.sent = true
-      })
+      fetch(url)
+        .then(() => {
+        })
+        .finally(() => {
+          this.sent = true
+        })
     }
   }
 }
